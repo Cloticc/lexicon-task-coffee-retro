@@ -1,6 +1,3 @@
-
-
-
 <!-- 
 
 ● The webpage should consist of three sections.
@@ -15,27 +12,90 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop Menu</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Spirax&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-      </ul>
+    <!-- <h1 class="fade">Hot <span class="highlight">Juicy</span> Cosy</h1> -->
+    <nav class="menu-nav">
+
+      <a href="#menu-hot">Hot</a>
+      <a href="#menu-juicy">Juicy</a>
+      <a href="#menu-cosy">Cosy</a>
+
     </nav>
+
   </header>
 
+  <div class="container">
+    <section id="menu-hot">
+      <!-- Content for "Hot" section goes here -->
+      <h2>Hot freshly ground black coffee or a cup of exquisite tea?</h2>
+      <p>We give you that perfect cup every time.</p>
+      <div class="menu-item">
+        <h3>Mocha Latte</h3>
+        <p>€7.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Caffè Formaggio</h3>
+        <p>€5.00</p>
+      </div>
+      <div class="menu-item">
+        <h3>Espresso</h3>
+        <p>€3.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Chai Verde Latte</h3>
+        <p>€5.50</p>
+      </div>
+    </section>
 
+    <section id="menu-juicy">
+      <h2>Ripe fruit - freshly squeezed.</h2>
+      <p>It's as simple as that. Chunky or smooth - it's your choice.</p>
+      <div class="menu-item">
+        <h3>Branched Apricots</h3>
+        <p>€4.20</p>
+      </div>
+      <div class="menu-item">
+        <h3>Deep Rasberries</h3>
+        <p>€3.50</p>
+      </div>
+      <div class="menu-item">
+        <h3>Smooth Oranges</h3>
+        <p>€6.50</p>
+      </div>
+    </section>
+    
+    <section id="menu-cosy">
+      <h2>Hang around. Enjoy the settings.</h2>
+      <p>Use our fast WiFi. Borrow a newspaper or a novel.</p>
+      <div class="menu-item">
+        <h3>Mon-Sun</h3>
+        <p>8am – 11pm</p>
+      </div>
+      <div class="menu-item">
+        <h3>Caffe Retro</h3>
+        <p>Canto VI</p>
+      </div>
+  
+    </section>
+<footer>
+  <div class="menu-item">
+    <h3>Contact</h3>
+    <p>0123-45 67 89 - caffe@lorem.pge</p>
+  </div>
+</footer>
+  </div>
 </body>
-</html>
 
+</html>
