@@ -26,22 +26,17 @@ section {
 } */
 
 header {
-  /* center the text and set opacity purple */
+
   position: fixed;
   top: 0;
   width: 100%;
   font-family: "spirex", sans-serif;
-text-align: center;
-;
+  text-align: center;
   background-color: rgba(128, 0, 128, 0.7);
   padding: 1em;
   font-size: 1.2rem;
-
 }
 
-header h1 .highlight {
-  color: #ff0000; /* Adjust the color to match the design */
-}
 
 .menu-highlight h2 {
   background-color: rgba(255, 0, 0, 0.7);
