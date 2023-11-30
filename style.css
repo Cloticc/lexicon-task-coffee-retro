@@ -73,6 +73,9 @@ p {
 .menu-item > p {
   letter-spacing: 0.1em;
 }
+h3 {
+font-weight: 400;
+}
 
 h1 {
   font-family: "Poiret One", sans-serif;
@@ -92,7 +95,11 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 21px;
+  font-weight: 500;
+
 }
+
+
 
 section > p {
   background-color: rgba(255, 0, 0, 0.4);
