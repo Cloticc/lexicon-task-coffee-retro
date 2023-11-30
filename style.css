@@ -20,52 +20,91 @@ section {
   height: 100vh;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  /* font-size: 1.2rem; */
+  /* color: #fff; */
+}
+
 /* * {
   font-family: "Poiret One", sans-serif;
   font-family: "Spirax", sans-serif;
 } */
 
 header {
-
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: "spirex", sans-serif;
   text-align: center;
-  background-color: rgba(128, 0, 128, 0.7);
+  background-color: rgba(128, 0, 90, 0.411);
   padding: 1em;
   font-size: 1.2rem;
 }
 
-
-.menu-highlight h2 {
-  background-color: rgba(255, 0, 0, 0.7);
-  display: inline-block;
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Spirax", sans-serif;
+  font-size: 1.5em;
   padding: 0.5em;
 }
 
-.menu-highlight p {
-  background-color: rgba(255, 0, 0, 0.7);
-  display: inline-block;
-  padding: 0.5em;
+h1,
+h2,
+h3,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
-.menu {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 1em;
-  border-radius: 10px;
-}
+
 
 .menu-item {
-  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Poiret One", sans-serif;
+  font-size: 10px;
+  
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 
-.menu-item h3 {
-  font-size: 1.5em;
-  color: #fff;
+h1 {
+  font-family: "Poiret One", sans-serif;
+  /* font-size: 3em; */
+  color: rgba(255, 0, 0, 0.685);
+  padding: 0.5em;
+  font-family: "Spirax", sans-serif;
+   padding-top: 150px;
+
+} 
+
+h2 {
+  background-color: rgba(255, 0, 0, 0.342);
+  padding: 0.5em;
+  font-family: "Poiret One", sans-serif;
+/* move to the left */
+  margin-left: 100px;
+  margin-right: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   font-size: 21px;
 }
 
-.menu-item p {
-  font-size: 1.2em;
-  color: #fff;
+section > p {
+  background-color: rgba(255, 0, 0, 0.342);
+  padding: 0.5em;
+  font-family: "Poiret One", sans-serif;
+  font-size: 21px;
+  margin-left: 250px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
