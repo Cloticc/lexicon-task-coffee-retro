@@ -1,3 +1,11 @@
+/* TODO: remake the html file with less menu-item div.*/
+
+/*  {
+  font-family: "Poiret One", sans-serif;
+  font-family: "Spirax", sans-serif;
+} */
+
+
 #menu-hot {
   background-image: url("caffe-retro-assets/hot.jpg");
   background-size: cover;
@@ -25,10 +33,6 @@ section {
   padding: 0;
 }
 
-/* * {
-  font-family: "Poiret One", sans-serif;
-  font-family: "Spirax", sans-serif;
-} */
 
 header {
   position: fixed;
