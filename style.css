@@ -5,7 +5,7 @@
   font-family: "Spirax", sans-serif;
 } */
 
-#menu-hot {
+#menu-hot { 
   background-image: url("caffe-retro-assets/hot.jpg");
   background-size: cover;
   background-position: center;
@@ -31,7 +31,6 @@
 html,
 body {
   scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -67,7 +66,7 @@ h3,
 p {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   color: #fff;
 }
 
