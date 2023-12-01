@@ -48,8 +48,10 @@ header {
   width: 100%;
   text-align: center;
   background-color: rgba(97, 0, 68, 0.4);
-  padding: 0.5em;
-  font-size: 1.2rem;
+/* increase size */
+  /* padding: 0.5em; */
+  padding: 1em;
+  font-size: 2em;
 }
 
 a {
@@ -95,7 +97,8 @@ h1 {
   color: rgba(255, 0, 0, 0.685);
   padding: 0.5em;
   font-family: "Spirax", sans-serif;
-  padding-top: 195px;
+  /* padding-top: 195px; */
+  padding-top: 384px;
 }
 
 h2 {
